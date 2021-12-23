@@ -175,3 +175,7 @@ https://www.toptal.com/developers/gitignore
 위 사이트에서 본인이 사용하는 OS, text editor, 사용하는 언어를 선택한 후 Create하시면 알아서 기본적인 것들을 제외시켜 줍니다. 단, 반드시 본인이 원하는 파일이나 폴더를 관리에서 제외하고자 하면 추가해서 push 하세요!
 
 ﻿
+
+**제 개인적인 복습용 블로그에 올린 내용입니다.**
+
+https://blog.naver.com/cubix122?Redirect=Update&logNo=222602200646
