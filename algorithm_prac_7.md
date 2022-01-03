@@ -3,10 +3,17 @@
 ## 선형리스트 (기초)
 
 ```python
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan  3 23:21:00 2022
+
+@author: Psw
+"""
+
 #함수
 def add_data(friend):
-	katok.append(None)
-    kLen = len(katok) 
+    katok.append(None)
+    kLen = len(katok)
     katok[kLen-1] = friend
 
 def insert_data(position, friend):
@@ -15,7 +22,7 @@ def insert_data(position, friend):
     for i in range(kLen-1, position, -1):
         katok[i] = katok[i-1]
         katok[i-1] = None
-	katok[position] = friend
+        katok[position] = friend
     
 def delete_data(position):
     katok[position] = None
@@ -23,7 +30,7 @@ def delete_data(position):
     for i in range(position+1, kLen):
         katok[i-1] = katok[i]
         katok[i] = None
-	del(katok[kLen-1])   #kLen-1은 제일 마지막 노드
+    del(katok[kLen-1])   #kLen-1은 제일 마지막 노드
         
       
 #전역
